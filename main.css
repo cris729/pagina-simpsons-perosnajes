@@ -1,0 +1,83 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #ffcc00;
+    padding: 20px;
+    text-align: center;
+   height: fit-content;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+footer.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer .brand {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+footer .call-to-action {
+    margin: 20px 0;
+}
+
+footer .social-media {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer .social-media li {
+    display: inline;
+}
+
+footer .social-media a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer .social-media a:hover {
+    text-decoration: underline;
+}
+
+.contenedor {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+article.row {
+    margin-bottom: 20px;
+}
+
+article.col-1, article.col-2 {
+    padding: 10px;
+}
+
+/* Ajuste de imágenes */
+img {
+    width: 150px; /* Ajusta este valor según el tamaño deseado */
+    height: 150px; /* Ajusta este valor según el tamaño deseado */
+    object-fit: cover;
+    margin: 10px 0;
+}
